@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	font-style: monospace;
+}
+
+.container {
+	max-width: 500px;
+	margin: 50px auto;
+	text-align: center;
+	border: 10px solid pink;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.fetch{
+	background-color: lightblue;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+button, input {
+	font-size: 1.25em;
+	color: purple;
+}

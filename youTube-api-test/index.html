@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>youTube Query Test</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="float-grid.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header role="banner">
+		<h1>John's Fantastic Video Search</h1>
+	</header>
+
+	<main role="main">
+		<form class="js-form" action="#" method="get">
+			<fieldset name="videoQuery">
+				<label for="query">What videos would you like?</label>
+				<input type="text" name="query" id="js-query" placeholder="ex. 'red dogs'">
+				<button type="submit">Search</button>
+			</fieldset>
+		</form>
+		
+		<section role="region">
+			<h2>Results</h2>
+			<div class="js-query-thumbnails thumbnails">
+				<!-- append search video thumbnails -->
+			</div>
+			<h2>Video Player</h2>
+			<div class="js-query-videos video">
+				<!-- append search video thumbnails -->
+			</div>
+		</section>
+	</main>
+
+
+<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
